@@ -1,0 +1,153 @@
+
+
+.protest-guerrilla-regular {
+    font-family: "Protest Guerrilla", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+  }
+  
+  .sofadi-one-regular {
+    font-family: "Sofadi One", system-ui;
+    font-weight: 400;
+    font-style: normal;
+  }
+
+ 
+  
+  .bungee-inline-regular {
+    font-family: "Bungee Inline", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+  }
+  
+.Canciones {
+    
+    color: hwb(252 7% 50%);
+    font-size: x-large;
+    font-weight: 500px;
+    font-family:"Protest Guerrilla", sans-serif;
+    text-align: center;
+    margin: auto;
+
+
+}
+
+.contenedor{
+    display: flex ;
+    justify-content: center;
+    margin: 10px;
+    margin-inline: 10px;
+
+    }  
+p{ color: hwb(216 9% 80%);
+    font-family: "bungee", light;
+}
+  
+
+ .Titulo {
+    font-family: "Bungee Inline", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    color: #0000b9;
+    font-size: 80px;
+    animation: bounce 2s infinite alternate;
+    display: flex;
+    justify-content: center;
+    align-items: top;
+
+    }
+
+
+@keyframes bounce {
+    0% {
+        transform: translateY(0);
+    }
+    100% {
+        transform: translateY(-20px);
+    }
+
+    }
+
+
+div{
+    
+   
+    align-content: center;
+
+}
+
+h2 {
+    color: #d9d1ee;
+    font-family: 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    text-align: center;
+    margin: auto;
+}
+ 
+body{
+    height: 100vh;
+    margin: 0;
+    background-color: #b525e0;
+ 
+    font-family: "Bungee Inline", sans-serif;
+    font-weight: 500;
+    font-style: normal;
+   
+    justify-content: center;
+    margin-left: 50%;
+    margin-inline: 10px;
+}
+
+    
+
+
+
+ 
+    
+
+
+
+ .LOVE {
+   
+    margin: 10px;
+    color:hsl(0, 0%, 100%);
+
+ } 
+
+ .CANT {
+    color: hsl(0, 0%, 100%);
+    margin: 10px;
+ }
+
+.RING {
+    color:hsl(0, 0%, 100%);
+    margin: 10px;
+}
+
+.foto {
+    display: flex;
+    justify-content: center;
+}
+img{
+
+    width: 300px;
+    height: 300px;   /*   en porcentaje o */
+
+}
+
+.navbar{
+
+    color: hsl(239, 61%, 71%);
+}
+
+
+.Eventos{
+    display:flex;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background-color: rgb(215, 56, 236);
+    margin-top: 67%;
+    margin-left: 50%;
+    max-width: fit-content;
+   }
