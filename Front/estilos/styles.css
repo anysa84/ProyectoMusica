@@ -32,6 +32,14 @@
 
 }
 
+.corazon{
+    position: relative;
+    bottom: 143px;
+    right: 305px;
+    border-radius: 50%;
+  
+}
+
 .contenedor{
     display: flex ;
     justify-content: center;
@@ -41,6 +49,9 @@
     }  
 p{ color: hwb(216 9% 80%);
     font-family: "bungee", light;
+    align-content: center;
+    margin-left: 10%;
+    margin-right: 10%;
 }
   
 
@@ -100,12 +111,6 @@ body{
     
 
 
-
- 
-    
-
-
-
  .LOVE {
    
     margin: 10px;
@@ -123,14 +128,21 @@ body{
     margin: 10px;
 }
 
-.foto {
+/*  .foto {
     display: flex;
     justify-content: center;
-}
+} 
+    */
+
 img{
 
     width: 300px;
-    height: 300px;   /*   en porcentaje o */
+    height: 300px;  
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    
 
 }
 

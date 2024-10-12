@@ -35,11 +35,10 @@
       height: 100vh;
       margin: 0;
       background-color: #b525e0;
-    
       font-family: "Bungee Inline", sans-serif;
       font-weight: 500;
       font-style: normal;
-     
+      color: rgb(236, 236, 236);
       justify-content: center;
       margin-left: 50%;
       margin-inline: 10px;
@@ -62,42 +61,40 @@
 
     .Album{
         font-family: Arial, Helvetica, sans-serif;
-        color: beige;
+        color: rgb(236, 236, 236);
         animation: bounce 2s infinite alternate;
         display: flex;
         justify-content: center;
         align-items: top;
         flex-wrap: wrap;
-        border-bottom: white;
+        border-bottom: rgb(240, 230, 230);
 
 
 
 
     }
+/*   titulo lista dentro de div*/
 
     .Lista {
-        font-family: Arial, Helvetica, sans-serif;
-        color: beige;
-        font-display: 100px  ;
-        font-weight: 300;
-        animation: bounce 2s infinite alternate;
-        display: flex;
-        justify-content: center;
-        align-items: top;
-        flex-wrap: wrap;
-        
+      font-family: "bungee inline";
+      font-weight: 200;
+      font-style: normal;
+      color: #ebe4e4;
+      font-size: 30px;
+      animation: bounce 2s infinite alternate;
+      display: flex;
+      justify-content: center;
+      align-items: top;
     }
 
     button {
-        padding: 10px;
-        font-size: 16px;
-        cursor: pointer;
-        border-color: rgb(241, 241, 238);
-        background-color: black;
-        border: 2px solid #ffffff;
-        border-left: 2px solid #ffffff;
-        margin: 20px;
-        padding: 20px;
+    
+      padding: 10px;
+      font-size: 16px;
+      justify-content: 50%;
+      margin: 20px;
+      padding: 20px;
+     
      
     }
 
@@ -105,26 +102,66 @@
       display:flex;
       padding: 10px;
       margin-bottom: 10px;
-      border: 1px solid #ccc;
+      border: 1px solid hsl(0, 33%, 92%);
       border-radius: 5px;
-      background-color: #d738ec;
-      margin-top: 67%;
+      background-color: rgb(215, 56, 236);
       margin-left: 50%;
       max-width: fit-content;
+     
+}    
 
-    }    
+  .comprarTicket{
+     font-family: "bungee inline";
+      font-weight: 00;
+      font-style: normal;
+      color: hsl(0, 94%, 47%);
+      font-size: 30px;
+      animation: bounce 2s infinite alternate;
+      display: flex;
+      justify-content: center;
+      align-items: top;
+
+ 
+
+}   
+
+  .entrada{
+    display:flex;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid hsl(0, 33%, 92%);
+    border-radius: 5px;
+    background-color: hsl(0, 94%, 43%)
+
+
+}    
+
+.btnTour3{
+  font-family: "bungee inline";
+  font-weight: 200;
+  font-style: normal;
+  color: #faf2f2;
+  font-size: 30px;
+  animation: bounce 2s infinite alternate;
+  display: flex;
+  justify-content: center;
+  align-items: top;
+}    
     
 
-    .EVENTOS{
-      font-family: "Bungee Inline", sans-serif;
-      font-weight: 400;
-      font-style: normal;
-      color: antiquewhite;
-      font-size: xx-large;
-      text-align: center;
+.EVENTOS{
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgb(236, 236, 236);
+    animation: bounce 2s infinite alternate;
+    display: flex;
+    justify-content: center;
+    align-items: top;
+    flex-wrap: wrap;
+    border-bottom: rgb(240, 230, 230);
 
 
 
 
 
     }
+

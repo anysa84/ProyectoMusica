@@ -22,15 +22,12 @@
 form {
     display: grid;
     row-gap: 8px;
-/*    font-family: "Bungee Inline", sans-serif;*/
     font-weight: 400; 
     color: hsl(231, 44%, 21%);
     align-items: center; 
     justify-content: center; 
     border-radius: 25px;
-    /*left: 50%;*/
     margin-top: 50px;
-    /*margin-left: 40%;*/
     height: 50px;
     width: 500px;
     
@@ -43,22 +40,10 @@ body{
     background-color: hsl(286, 76%, 42%);
 }
 
-h3{
-    font-family: "Bungee Inline", sans-serif;
-    font-weight: 400;
-    font-style: normal;
-    color: rgb(255, 255, 255);
-    font-size: 50px;
-    animation: bounce 2s infinite alternate;
-    display: flex;
-    justify-content: center;
-    align-items: top;
+
     
 
    
-
-    
-}
 
 
 
@@ -102,23 +87,7 @@ input[type="submit"] {
 }
 
 
-sa{
-    display: flex;
-    row-gap: 8px;
-    font-family: "Bungee Inline", sans-serif;
-    font-weight: 400; 
-    color: hsl(235, 75%, 97%);
-    /*align-items: center; */
-    justify-content: center; /* texto volver centrado*/
-    border-radius: 20px;
-    /*left: 50%;*/
-    background-color: rgb(215, 56, 236);
-/*  */
-    margin-top: 70%;
-    margin-left: 50%;
-    height: 30px;
-    width: 100px;
-}
+
 
 a{
   display:flex;
