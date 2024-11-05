@@ -1,6 +1,8 @@
-const { Model, DataTypes } = require('sequelize');
-const sequelize = require('  '); // Ajusta la ruta según tu estructura de carpetas
-class User extends Model {}
+// revisar mongo o node a donde este residiuendo//
+const { Model, DataTypes } = require('express');
+const mongoose = require(´mongoose´); // ruta 
+const router= requise ('./router/index.js')
+const url = mongoose {}
 
 User.init({
     nombre: {
@@ -24,7 +26,7 @@ User.init({
         allowNull: false
     },
     favoritos: {
-        type: DataTypes.JSON, // Puedes ajustar esto según tus necesidades; por ejemplo, podrías utilizar un arreglo de IDs de álbumes
+        type: DataTypes.JSON, 
         allowNull: true,
         defaultValue: []
     }
